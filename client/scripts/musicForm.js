@@ -79,7 +79,7 @@ document.getElementById("save").addEventListener("click", async function () {
         document.getElementById("nombre").value = "";
         document.getElementById("artista").value = "";
         document.getElementById("url").value = "";
-        window.location.href = "./songList.html";
+        window.location.href = "./list.html";
       });
     } else {
       Swal.fire({
