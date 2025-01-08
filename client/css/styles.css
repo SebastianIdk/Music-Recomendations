@@ -22,8 +22,6 @@
 /* Body */
 body {
   margin: 0;
-  overflow-x: hidden;
-  overflow-y: hidden;
   font-family: "Raleway", sans-serif;
   line-height: 1.6;
   background-color: #2e2e2e;
