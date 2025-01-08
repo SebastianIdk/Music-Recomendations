@@ -43,7 +43,7 @@ Ejecutando el comando se mostrara un mensaje en la consola "Servidor Iniciado", 
 ### 5. Abrir la Aplicación
 Esto se puede realizar abriendo los archivos desde la carpeta **client**, especificamente los archivos **.html**. También si tienes un plugin para abrir el cliente de forma estática lo puedes hacer, pero recomiendo abrir `client/index.html` con tu navegador.
 ### 6. Funcionalidades y gitignore
-- El proyecto es capaz de agregar canciones en la base de datos de MongoDB y también puede eliminar las canciones no deseadas.
+- El proyecto es capaz de agregar canciones en la base de datos de MongoDB, a la par de que puede enseñar canciones aleatorias y también puede eliminar las canciones no deseadas.
 - Se puede listar las canciones agregadas, y se puede escuchar las mismas dentro de la misma página.
 - Puedes votar por las canciones disponibles, se incluyo un contador de votos para saber que canción es la mejor.
 - El proyecto incluye un archivo `.gitignore` para **no subir** la carpeta `node_modules/` al repositorio, de esa forma evitando cualquier inconveniente en GitHub.
