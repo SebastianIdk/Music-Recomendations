@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subir Canciones</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./scripts/musicForm.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-image-container">
+        <img src="./images/main/header.png" alt="Header" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./list.html">Explorar Canciones</a></li>
+          <li><a href="./form.html">Subir Canción</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="add-song-container">
+      <h1>Agrega tu canción de preferencia</h1>
+      <h3>
+        ¡Llena este formulario con los datos de tu canción preferida para que la
+        puedas ver en Explorar Canciones!
+      </h3>
+      <input
+        type="text"
+        id="nombre"
+        placeholder="Nombre completo de la canción"
+      />
+      <input type="text" id="artista" placeholder="Artista o Grupo Musical" />
+      <input
+        type="text"
+        id="url"
+        placeholder="URL del video de Youtube de la canción"
+      />
+      <button id="save" type="submit">Subir canción</button>
+    </main>
+  </body>
+</html>

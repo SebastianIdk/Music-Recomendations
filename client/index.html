@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./scripts/index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-image-container">
+        <img src="./images/main/header.png" alt="Header" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./list.html">Explorar Canciones</a></li>
+          <li><a href="./form.html">Subir Canción</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="content-wrapper">
+      <div class="gif-container left">
+        <img src="./images/animated/gif1.gif" alt="GIF 1" />
+      </div>
+
+      <main class="home-container">
+        <h1>¡Bienvenidos a la Comunidad Musical!</h1>
+        <p>
+          Aquí puedes descubrir canciones nuevas, agregar tus favoritas y
+          participar votando en la lista de canciones. ¡Explora y disfruta de la
+          música con nosotros!
+        </p>
+        <section>
+          <h2>¿Qué puedes hacer?</h2>
+          <p>
+            - Explorar una lista de canciones creada por nuestra comunidad.<br />
+            - Subir tus canciones favoritas para compartirlas.<br />
+            - Votar por las canciones que más te gusten.
+          </p>
+        </section>
+      </main>
+
+      <div class="gif-container right">
+        <img src="./images/animated/gif2.gif" alt="GIF 2" />
+      </div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="gif-container small left">
+        <img src="./images/animated/gif3.gif" alt="GIF 3" />
+      </div>
+
+      <section class="random-song-section">
+        <h2>¡Prueba suerte con una canción aleatoria!</h2>
+        <button id="randomSongBtn" class="random-song-btn">
+          Canción Aleatoria
+        </button>
+      </section>
+
+      <div class="gif-container small right">
+        <img src="./images/animated/gif4.gif" alt="GIF 4" />
+      </div>
+    </div>
+
+    <div id="randomSongModal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <div id="randomSongContainer" class="random-song-container"></div>
+      </div>
+    </div>
+  </body>
+</html>

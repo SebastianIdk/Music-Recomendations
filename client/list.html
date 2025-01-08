@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Canciones</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./scripts/songs.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-image-container">
+        <img src="./images/main/header.png" alt="Header" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./list.html">Explorar Canciones</a></li>
+          <li><a href="./form.html">Subir Canción</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="content-wrapper">
+      <div class="gif-container-songlist left">
+        <img src="./images/animated/gif2.gif" alt="GIF 2 SongList" />
+      </div>
+
+      <main class="song-list-container">
+        <h1>Biblioteca de Música</h1>
+        <h3>
+          ¡Vota tus canciones preferidas o escuchalas. Aqui tendras todas las
+          canciones que agregaste previamente!
+        </h3>
+        <div id="songsContainer"></div>
+      </main>
+
+      <div class="gif-container-songlist right">
+        <img src="./images/animated/gif4.gif" alt="GIF 4 SongList" />
+      </div>
+    </div>
+
+    <div id="popupOverlay" class="popup-overlay hidden"></div>
+  </body>
+</html>
